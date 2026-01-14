@@ -1,0 +1,29 @@
+[
+  {
+    "id": "client-1",
+    "name": "ABC Corporation",
+    "email": "contact@abc.com",
+    "phone": "+92-300-1234567",
+    "address": "123 Main Street, Block A",
+    "city": "Karachi",
+    "createdAt": "2026-01-05T00:00:00.000Z"
+  },
+  {
+    "id": "client-2",
+    "name": "XYZ Industries",
+    "email": "info@xyz.com",
+    "phone": "+92-321-9876543",
+    "address": "456 Industrial Area, Phase 2",
+    "city": "Lahore",
+    "createdAt": "2026-01-06T00:00:00.000Z"
+  },
+  {
+    "id": "client-3",
+    "name": "Khan Builders",
+    "email": "khan@builders.com",
+    "phone": "+92-333-5551234",
+    "address": "789 Construction Plaza",
+    "city": "Islamabad",
+    "createdAt": "2026-01-07T00:00:00.000Z"
+  }
+]

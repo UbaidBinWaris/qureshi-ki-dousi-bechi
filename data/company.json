@@ -1,0 +1,13 @@
+{
+  "id": "company-1",
+  "name": "Qureshi Construction Company",
+  "email": "info@qureshiconstruction.com",
+  "phone": "+92-300-9876543",
+  "address": "Plot 123, Industrial Area, Sector 45",
+  "city": "Karachi, Pakistan",
+  "taxId": "NTN-1234567",
+  "bankName": "Meezan Bank Limited",
+  "accountNumber": "01234567890123",
+  "defaultTaxRate": 17,
+  "defaultPaymentTerms": "Payment due within 30 days of invoice date. 50% advance payment required for new projects."
+}

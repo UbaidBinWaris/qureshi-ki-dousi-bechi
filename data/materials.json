@@ -1,0 +1,74 @@
+[
+  {
+    "id": "material-1",
+    "name": "Cement",
+    "description": "Portland cement - 50kg bag",
+    "unit": "bag",
+    "rate": 850,
+    "category": "Construction Materials",
+    "createdAt": "2026-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "material-2",
+    "name": "Steel Rebar",
+    "description": "Grade 60 steel reinforcement bars",
+    "unit": "ton",
+    "rate": 250000,
+    "category": "Steel",
+    "createdAt": "2026-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "material-3",
+    "name": "Bricks",
+    "description": "First class bricks",
+    "unit": "thousand",
+    "rate": 18000,
+    "category": "Construction Materials",
+    "createdAt": "2026-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "material-4",
+    "name": "Sand",
+    "description": "Fine construction sand",
+    "unit": "cubic ft",
+    "rate": 80,
+    "category": "Aggregates",
+    "createdAt": "2026-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "material-5",
+    "name": "Gravel",
+    "description": "Crushed stone aggregate",
+    "unit": "cubic ft",
+    "rate": 90,
+    "category": "Aggregates",
+    "createdAt": "2026-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "material-6",
+    "name": "Paint",
+    "description": "Exterior/Interior wall paint",
+    "unit": "gallon",
+    "rate": 2500,
+    "category": "Finishing",
+    "createdAt": "2026-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "material-7",
+    "name": "Tiles",
+    "description": "Ceramic floor tiles",
+    "unit": "sq ft",
+    "rate": 250,
+    "category": "Finishing",
+    "createdAt": "2026-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "material-8",
+    "name": "Wood Planks",
+    "description": "Treated lumber planks",
+    "unit": "piece",
+    "rate": 450,
+    "category": "Carpentry",
+    "createdAt": "2026-01-01T00:00:00.000Z"
+  }
+]

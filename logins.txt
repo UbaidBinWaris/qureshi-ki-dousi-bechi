@@ -1,0 +1,4 @@
+Demo Accounts:
+
+Admin: admin@construction.com (any password)
+User: john@construction.com (any password)

@@ -1,0 +1,18 @@
+[
+  {
+    "id": "user-1",
+    "name": "Admin User",
+    "email": "admin@construction.com",
+    "password": "$2a$10$rZj5hZJKZJKZJKZJKZJKZeH8vQw0F0F0F0F0F0F0F0F0F0F0F0F0F0",
+    "role": "admin",
+    "createdAt": "2026-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "user-2",
+    "name": "John Contractor",
+    "email": "john@construction.com",
+    "password": "$2a$10$rZj5hZJKZJKZJKZJKZJKZeH8vQw0F0F0F0F0F0F0F0F0F0F0F0F0F0",
+    "role": "user",
+    "createdAt": "2026-01-02T00:00:00.000Z"
+  }
+]

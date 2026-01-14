@@ -1,0 +1,50 @@
+[
+  {
+    "id": "labor-1",
+    "name": "Mason",
+    "description": "Skilled masonry work",
+    "hourlyRate": 500,
+    "category": "Construction Labor",
+    "createdAt": "2026-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "labor-2",
+    "name": "Carpenter",
+    "description": "Skilled carpentry work",
+    "hourlyRate": 550,
+    "category": "Construction Labor",
+    "createdAt": "2026-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "labor-3",
+    "name": "Electrician",
+    "description": "Licensed electrical work",
+    "hourlyRate": 600,
+    "category": "Specialized Labor",
+    "createdAt": "2026-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "labor-4",
+    "name": "Plumber",
+    "description": "Licensed plumbing work",
+    "hourlyRate": 600,
+    "category": "Specialized Labor",
+    "createdAt": "2026-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "labor-5",
+    "name": "Painter",
+    "description": "Professional painting work",
+    "hourlyRate": 400,
+    "category": "Finishing Labor",
+    "createdAt": "2026-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "labor-6",
+    "name": "General Labor",
+    "description": "General construction helper",
+    "hourlyRate": 300,
+    "category": "Construction Labor",
+    "createdAt": "2026-01-01T00:00:00.000Z"
+  }
+]

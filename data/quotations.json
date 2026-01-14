@@ -1,0 +1,91 @@
+[
+  {
+    "id": "quotation-1",
+    "quotationNumber": "QT-0001",
+    "projectId": "project-1",
+    "clientId": "client-1",
+    "items": [
+      {
+        "id": "item-1",
+        "type": "material",
+        "itemId": "material-1",
+        "itemName": "Cement",
+        "description": "Portland cement - 50kg bag",
+        "quantity": 500,
+        "rate": 850,
+        "amount": 425000
+      },
+      {
+        "id": "item-2",
+        "type": "material",
+        "itemId": "material-2",
+        "itemName": "Steel Rebar",
+        "description": "Grade 60 steel reinforcement bars",
+        "quantity": 5,
+        "rate": 250000,
+        "amount": 1250000
+      },
+      {
+        "id": "item-3",
+        "type": "labor",
+        "itemId": "labor-1",
+        "itemName": "Mason",
+        "description": "Skilled masonry work - 200 hours",
+        "quantity": 200,
+        "rate": 500,
+        "amount": 100000
+      }
+    ],
+    "subtotal": 1775000,
+    "taxRate": 17,
+    "taxAmount": 301750,
+    "discount": 50000,
+    "total": 2026750,
+    "status": "sent",
+    "validUntil": "2026-02-15T00:00:00.000Z",
+    "terms": "Payment within 30 days of acceptance. 50% advance required.",
+    "notes": "Prices are subject to change based on market conditions.",
+    "createdBy": "user-1",
+    "createdAt": "2026-01-10T00:00:00.000Z",
+    "updatedAt": "2026-01-10T00:00:00.000Z"
+  },
+  {
+    "id": "quotation-2",
+    "quotationNumber": "QT-0002",
+    "projectId": "project-2",
+    "clientId": "client-2",
+    "items": [
+      {
+        "id": "item-4",
+        "type": "material",
+        "itemId": "material-7",
+        "itemName": "Tiles",
+        "description": "Ceramic floor tiles",
+        "quantity": 2000,
+        "rate": 250,
+        "amount": 500000
+      },
+      {
+        "id": "item-5",
+        "type": "labor",
+        "itemId": "labor-3",
+        "itemName": "Electrician",
+        "description": "Licensed electrical work - 150 hours",
+        "quantity": 150,
+        "rate": 600,
+        "amount": 90000
+      }
+    ],
+    "subtotal": 590000,
+    "taxRate": 17,
+    "taxAmount": 100300,
+    "discount": 0,
+    "total": 690300,
+    "status": "approved",
+    "validUntil": "2026-02-20T00:00:00.000Z",
+    "terms": "Payment within 30 days of acceptance.",
+    "createdBy": "user-2",
+    "createdAt": "2026-01-12T00:00:00.000Z",
+    "updatedAt": "2026-01-13T00:00:00.000Z"
+  }
+]

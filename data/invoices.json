@@ -1,0 +1,85 @@
+[
+  {
+    "id": "invoice-1",
+    "invoiceNumber": "INV-0001",
+    "quotationId": "quotation-2",
+    "projectId": "project-2",
+    "clientId": "client-2",
+    "items": [
+      {
+        "id": "item-4",
+        "type": "material",
+        "itemId": "material-7",
+        "itemName": "Tiles",
+        "description": "Ceramic floor tiles",
+        "quantity": 2000,
+        "rate": 250,
+        "amount": 500000
+      },
+      {
+        "id": "item-5",
+        "type": "labor",
+        "itemId": "labor-3",
+        "itemName": "Electrician",
+        "description": "Licensed electrical work - 150 hours",
+        "quantity": 150,
+        "rate": 600,
+        "amount": 90000
+      }
+    ],
+    "subtotal": 590000,
+    "taxRate": 17,
+    "taxAmount": 100300,
+    "discount": 0,
+    "total": 690300,
+    "paymentStatus": "partial",
+    "amountPaid": 345150,
+    "dueDate": "2026-02-15T00:00:00.000Z",
+    "paymentTerms": "50% advance, balance on completion",
+    "notes": "First installment received",
+    "createdBy": "user-2",
+    "createdAt": "2026-01-14T00:00:00.000Z",
+    "updatedAt": "2026-01-14T00:00:00.000Z"
+  },
+  {
+    "id": "invoice-2",
+    "invoiceNumber": "INV-0002",
+    "projectId": "project-3",
+    "clientId": "client-3",
+    "items": [
+      {
+        "id": "item-6",
+        "type": "material",
+        "itemId": "material-6",
+        "itemName": "Paint",
+        "description": "Interior wall paint",
+        "quantity": 50,
+        "rate": 2500,
+        "amount": 125000
+      },
+      {
+        "id": "item-7",
+        "type": "labor",
+        "itemId": "labor-5",
+        "itemName": "Painter",
+        "description": "Professional painting work - 100 hours",
+        "quantity": 100,
+        "rate": 400,
+        "amount": 40000
+      }
+    ],
+    "subtotal": 165000,
+    "taxRate": 17,
+    "taxAmount": 28050,
+    "discount": 5000,
+    "total": 188050,
+    "paymentStatus": "paid",
+    "amountPaid": 188050,
+    "dueDate": "2026-01-20T00:00:00.000Z",
+    "paymentTerms": "Payment within 15 days",
+    "notes": "Fully paid - Project completed",
+    "createdBy": "user-1",
+    "createdAt": "2026-01-05T00:00:00.000Z",
+    "updatedAt": "2026-01-15T00:00:00.000Z"
+  }
+]
