@@ -1,0 +1,146 @@
+[
+  {
+    "id": "trade-1",
+    "name": "Plumbing",
+    "category": "Essential Trades",
+    "description": "All plumbing installation and repairs",
+    "providers": [
+      {
+        "id": "provider-1",
+        "name": "Ali Plumbing Services",
+        "phone": "+92-321-1234567",
+        "email": "ali@plumbing.com",
+        "hourlyRate": 600,
+        "jobRate": 15000,
+        "rating": 4.5
+      },
+      {
+        "id": "provider-2",
+        "name": "Quick Fix Plumbers",
+        "phone": "+92-321-7654321",
+        "email": "quickfix@plumbers.com",
+        "hourlyRate": 550,
+        "jobRate": 14000,
+        "rating": 4.2
+      }
+    ],
+    "createdAt": "2026-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "trade-2",
+    "name": "Electrical",
+    "category": "Essential Trades",
+    "description": "Licensed electrical work and installations",
+    "providers": [
+      {
+        "id": "provider-3",
+        "name": "Power Electric Co.",
+        "phone": "+92-321-2345678",
+        "email": "power@electric.com",
+        "hourlyRate": 650,
+        "jobRate": 18000,
+        "rating": 4.8
+      },
+      {
+        "id": "provider-4",
+        "name": "Bright Electricians",
+        "phone": "+92-321-8765432",
+        "email": "bright@electricians.com",
+        "hourlyRate": 600,
+        "jobRate": 16000,
+        "rating": 4.3
+      }
+    ],
+    "createdAt": "2026-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "trade-3",
+    "name": "Carpentry",
+    "category": "Construction Trades",
+    "description": "Custom woodwork and carpentry",
+    "providers": [
+      {
+        "id": "provider-5",
+        "name": "Master Carpenters",
+        "phone": "+92-321-3456789",
+        "email": "master@carpenters.com",
+        "hourlyRate": 550,
+        "jobRate": 12000,
+        "rating": 4.6
+      },
+      {
+        "id": "provider-6",
+        "name": "Wood Works Studio",
+        "phone": "+92-321-9876543",
+        "email": "wood@works.com",
+        "hourlyRate": 580,
+        "jobRate": 13000,
+        "rating": 4.7
+      }
+    ],
+    "createdAt": "2026-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "trade-4",
+    "name": "Painting",
+    "category": "Finishing Trades",
+    "description": "Interior and exterior painting",
+    "providers": [
+      {
+        "id": "provider-7",
+        "name": "Color Masters",
+        "phone": "+92-321-4567890",
+        "email": "color@masters.com",
+        "hourlyRate": 400,
+        "jobRate": 8000,
+        "rating": 4.4
+      },
+      {
+        "id": "provider-8",
+        "name": "Perfect Paint Pro",
+        "phone": "+92-321-6789012",
+        "email": "perfect@paint.com",
+        "hourlyRate": 420,
+        "jobRate": 8500,
+        "rating": 4.5
+      }
+    ],
+    "createdAt": "2026-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "trade-5",
+    "name": "Masonry",
+    "category": "Construction Trades",
+    "description": "Brick and stone work",
+    "providers": [
+      {
+        "id": "provider-9",
+        "name": "Strong Masons",
+        "phone": "+92-321-5678901",
+        "email": "strong@masons.com",
+        "hourlyRate": 500,
+        "jobRate": 10000,
+        "rating": 4.3
+      }
+    ],
+    "createdAt": "2026-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "trade-6",
+    "name": "Flooring",
+    "category": "Finishing Trades",
+    "description": "Tile, hardwood, and flooring installation",
+    "providers": [
+      {
+        "id": "provider-10",
+        "name": "Floor Expert",
+        "phone": "+92-321-7890123",
+        "email": "floor@expert.com",
+        "hourlyRate": 450,
+        "jobRate": 9000,
+        "rating": 4.6
+      }
+    ],
+    "createdAt": "2026-01-01T00:00:00.000Z"
+  }
+]

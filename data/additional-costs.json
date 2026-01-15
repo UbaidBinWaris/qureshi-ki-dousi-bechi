@@ -1,0 +1,92 @@
+[
+  {
+    "id": "additional-cost-1",
+    "name": "Waste Bin Rental",
+    "description": "20-yard dumpster rental for construction waste",
+    "defaultCost": 8000,
+    "category": "waste",
+    "isEditable": true,
+    "createdAt": "2026-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "additional-cost-2",
+    "name": "City Building Permit",
+    "description": "Municipal building permit fees",
+    "defaultCost": 15000,
+    "category": "permit",
+    "isEditable": true,
+    "createdAt": "2026-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "additional-cost-3",
+    "name": "Electrical Permit",
+    "description": "Permit for electrical work",
+    "defaultCost": 5000,
+    "category": "permit",
+    "isEditable": true,
+    "createdAt": "2026-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "additional-cost-4",
+    "name": "Plumbing Permit",
+    "description": "Permit for plumbing work",
+    "defaultCost": 4000,
+    "category": "permit",
+    "isEditable": true,
+    "createdAt": "2026-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "additional-cost-5",
+    "name": "City Inspection Fee",
+    "description": "Building inspection fee",
+    "defaultCost": 3000,
+    "category": "inspection",
+    "isEditable": true,
+    "createdAt": "2026-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "additional-cost-6",
+    "name": "Electrical Inspection",
+    "description": "Electrical system inspection",
+    "defaultCost": 2000,
+    "category": "inspection",
+    "isEditable": true,
+    "createdAt": "2026-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "additional-cost-7",
+    "name": "Plumbing Inspection",
+    "description": "Plumbing system inspection",
+    "defaultCost": 2000,
+    "category": "inspection",
+    "isEditable": true,
+    "createdAt": "2026-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "additional-cost-8",
+    "name": "Equipment Rental",
+    "description": "Construction equipment rental (scaffolding, etc.)",
+    "defaultCost": 10000,
+    "category": "equipment",
+    "isEditable": true,
+    "createdAt": "2026-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "additional-cost-9",
+    "name": "Site Cleanup",
+    "description": "Final site cleanup and debris removal",
+    "defaultCost": 5000,
+    "category": "other",
+    "isEditable": true,
+    "createdAt": "2026-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "additional-cost-10",
+    "name": "Disposal Fee",
+    "description": "Hazardous material disposal",
+    "defaultCost": 3000,
+    "category": "waste",
+    "isEditable": true,
+    "createdAt": "2026-01-01T00:00:00.000Z"
+  }
+]

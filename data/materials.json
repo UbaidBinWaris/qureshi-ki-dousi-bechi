@@ -6,6 +6,23 @@
     "unit": "bag",
     "rate": 850,
     "category": "Construction Materials",
+    "materialType": "building",
+    "roomTypes": ["basement", "garage", "other"],
+    "defaultQuantityPerSqFt": 0.15,
+    "vendorLinks": [
+      {
+        "vendorName": "Home Depot",
+        "url": "https://www.homedepot.ca/product/cement",
+        "lastPrice": 820,
+        "lastUpdated": "2026-01-10T00:00:00.000Z"
+      },
+      {
+        "vendorName": "Home Hardware",
+        "url": "https://www.homehardware.ca/product/cement",
+        "lastPrice": 850,
+        "lastUpdated": "2026-01-10T00:00:00.000Z"
+      }
+    ],
     "createdAt": "2026-01-01T00:00:00.000Z"
   },
   {
@@ -15,6 +32,16 @@
     "unit": "ton",
     "rate": 250000,
     "category": "Steel",
+    "materialType": "building",
+    "roomTypes": ["basement", "garage"],
+    "vendorLinks": [
+      {
+        "vendorName": "Home Depot",
+        "url": "https://www.homedepot.ca/product/rebar",
+        "lastPrice": 245000,
+        "lastUpdated": "2026-01-10T00:00:00.000Z"
+      }
+    ],
     "createdAt": "2026-01-01T00:00:00.000Z"
   },
   {
@@ -24,6 +51,9 @@
     "unit": "thousand",
     "rate": 18000,
     "category": "Construction Materials",
+    "materialType": "building",
+    "roomTypes": ["other"],
+    "defaultQuantityPerSqFt": 7,
     "createdAt": "2026-01-01T00:00:00.000Z"
   },
   {
@@ -33,6 +63,9 @@
     "unit": "cubic ft",
     "rate": 80,
     "category": "Aggregates",
+    "materialType": "building",
+    "roomTypes": ["basement", "garage", "other"],
+    "defaultQuantityPerSqFt": 0.5,
     "createdAt": "2026-01-01T00:00:00.000Z"
   },
   {
@@ -42,6 +75,9 @@
     "unit": "cubic ft",
     "rate": 90,
     "category": "Aggregates",
+    "materialType": "building",
+    "roomTypes": ["basement", "garage"],
+    "defaultQuantityPerSqFt": 0.5,
     "createdAt": "2026-01-01T00:00:00.000Z"
   },
   {
@@ -51,6 +87,23 @@
     "unit": "gallon",
     "rate": 2500,
     "category": "Finishing",
+    "materialType": "finishing",
+    "roomTypes": ["bathroom", "kitchen", "powder-room", "living-room", "bedroom", "dining-room", "hallway", "office"],
+    "defaultQuantityPerSqFt": 0.01,
+    "vendorLinks": [
+      {
+        "vendorName": "Home Depot",
+        "url": "https://www.homedepot.ca/product/paint",
+        "lastPrice": 2400,
+        "lastUpdated": "2026-01-10T00:00:00.000Z"
+      },
+      {
+        "vendorName": "Canadian Tire",
+        "url": "https://www.canadiantire.ca/product/paint",
+        "lastPrice": 2450,
+        "lastUpdated": "2026-01-10T00:00:00.000Z"
+      }
+    ],
     "createdAt": "2026-01-01T00:00:00.000Z"
   },
   {
@@ -60,6 +113,17 @@
     "unit": "sq ft",
     "rate": 250,
     "category": "Finishing",
+    "materialType": "finishing",
+    "roomTypes": ["bathroom", "kitchen", "powder-room", "laundry-room"],
+    "defaultQuantityPerSqFt": 1.1,
+    "vendorLinks": [
+      {
+        "vendorName": "Home Depot",
+        "url": "https://www.homedepot.ca/product/tiles",
+        "lastPrice": 240,
+        "lastUpdated": "2026-01-10T00:00:00.000Z"
+      }
+    ],
     "createdAt": "2026-01-01T00:00:00.000Z"
   },
   {
@@ -69,6 +133,201 @@
     "unit": "piece",
     "rate": 450,
     "category": "Carpentry",
+    "materialType": "building",
+    "roomTypes": ["living-room", "bedroom", "dining-room", "office"],
+    "vendorLinks": [
+      {
+        "vendorName": "Home Depot",
+        "url": "https://www.homedepot.ca/product/lumber",
+        "lastPrice": 430,
+        "lastUpdated": "2026-01-10T00:00:00.000Z"
+      },
+      {
+        "vendorName": "Home Hardware",
+        "url": "https://www.homehardware.ca/product/lumber",
+        "lastPrice": 440,
+        "lastUpdated": "2026-01-10T00:00:00.000Z"
+      }
+    ],
+    "createdAt": "2026-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "material-9",
+    "name": "Baseboards",
+    "description": "Wood baseboards - 8 ft lengths",
+    "unit": "piece",
+    "rate": 350,
+    "category": "Finishing",
+    "materialType": "finishing",
+    "roomTypes": ["bathroom", "kitchen", "powder-room", "living-room", "bedroom", "dining-room", "hallway", "office"],
+    "defaultQuantityPerSqFt": 0.05,
+    "vendorLinks": [
+      {
+        "vendorName": "Home Depot",
+        "url": "https://www.homedepot.ca/product/baseboards",
+        "lastPrice": 340,
+        "lastUpdated": "2026-01-10T00:00:00.000Z"
+      }
+    ],
+    "createdAt": "2026-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "material-10",
+    "name": "Drywall",
+    "description": "1/2 inch drywall sheets - 4x8 ft",
+    "unit": "sheet",
+    "rate": 800,
+    "category": "Construction Materials",
+    "materialType": "building",
+    "roomTypes": ["bathroom", "kitchen", "powder-room", "living-room", "bedroom", "dining-room", "hallway", "office", "basement"],
+    "defaultQuantityPerSqFt": 0.03,
+    "vendorLinks": [
+      {
+        "vendorName": "Home Depot",
+        "url": "https://www.homedepot.ca/product/drywall",
+        "lastPrice": 780,
+        "lastUpdated": "2026-01-10T00:00:00.000Z"
+      },
+      {
+        "vendorName": "Home Hardware",
+        "url": "https://www.homehardware.ca/product/drywall",
+        "lastPrice": 800,
+        "lastUpdated": "2026-01-10T00:00:00.000Z"
+      }
+    ],
+    "createdAt": "2026-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "material-11",
+    "name": "Screws",
+    "description": "Drywall screws - box of 1000",
+    "unit": "box",
+    "rate": 150,
+    "category": "Hardware",
+    "materialType": "building",
+    "roomTypes": ["bathroom", "kitchen", "powder-room", "living-room", "bedroom", "dining-room", "hallway", "office", "basement"],
+    "defaultQuantityPerSqFt": 0.001,
+    "vendorLinks": [
+      {
+        "vendorName": "Home Depot",
+        "url": "https://www.homedepot.ca/product/screws",
+        "lastPrice": 145,
+        "lastUpdated": "2026-01-10T00:00:00.000Z"
+      },
+      {
+        "vendorName": "Canadian Tire",
+        "url": "https://www.canadiantire.ca/product/screws",
+        "lastPrice": 150,
+        "lastUpdated": "2026-01-10T00:00:00.000Z"
+      }
+    ],
+    "createdAt": "2026-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "material-12",
+    "name": "Bathroom Faucet",
+    "description": "Chrome finish bathroom sink faucet",
+    "unit": "piece",
+    "rate": 8500,
+    "category": "Fixtures",
+    "materialType": "finishing",
+    "roomTypes": ["bathroom", "powder-room"],
+    "vendorLinks": [
+      {
+        "vendorName": "Home Depot",
+        "url": "https://www.homedepot.ca/product/faucet",
+        "lastPrice": 8200,
+        "lastUpdated": "2026-01-10T00:00:00.000Z"
+      }
+    ],
+    "createdAt": "2026-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "material-13",
+    "name": "Toilet",
+    "description": "Standard white toilet with dual flush",
+    "unit": "piece",
+    "rate": 12000,
+    "category": "Fixtures",
+    "materialType": "finishing",
+    "roomTypes": ["bathroom", "powder-room"],
+    "vendorLinks": [
+      {
+        "vendorName": "Home Depot",
+        "url": "https://www.homedepot.ca/product/toilet",
+        "lastPrice": 11500,
+        "lastUpdated": "2026-01-10T00:00:00.000Z"
+      }
+    ],
+    "createdAt": "2026-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "material-14",
+    "name": "Kitchen Faucet",
+    "description": "Pull-down kitchen faucet with spray",
+    "unit": "piece",
+    "rate": 15000,
+    "category": "Fixtures",
+    "materialType": "finishing",
+    "roomTypes": ["kitchen"],
+    "vendorLinks": [
+      {
+        "vendorName": "Home Depot",
+        "url": "https://www.homedepot.ca/product/kitchen-faucet",
+        "lastPrice": 14500,
+        "lastUpdated": "2026-01-10T00:00:00.000Z"
+      }
+    ],
+    "createdAt": "2026-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "material-15",
+    "name": "Kitchen Sink",
+    "description": "Stainless steel double bowl kitchen sink",
+    "unit": "piece",
+    "rate": 18000,
+    "category": "Fixtures",
+    "materialType": "finishing",
+    "roomTypes": ["kitchen"],
+    "vendorLinks": [
+      {
+        "vendorName": "Home Depot",
+        "url": "https://www.homedepot.ca/product/sink",
+        "lastPrice": 17500,
+        "lastUpdated": "2026-01-10T00:00:00.000Z"
+      }
+    ],
+    "createdAt": "2026-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "material-16",
+    "name": "2x4 Lumber",
+    "description": "Standard 2x4 lumber - 8 ft",
+    "unit": "piece",
+    "rate": 380,
+    "category": "Lumber",
+    "materialType": "building",
+    "roomTypes": ["basement", "garage", "other"],
+    "vendorLinks": [
+      {
+        "vendorName": "Home Depot",
+        "url": "https://www.homedepot.ca/product/2x4",
+        "lastPrice": 365,
+        "lastUpdated": "2026-01-10T00:00:00.000Z"
+      },
+      {
+        "vendorName": "Home Hardware",
+        "url": "https://www.homehardware.ca/product/2x4",
+        "lastPrice": 375,
+        "lastUpdated": "2026-01-10T00:00:00.000Z"
+      },
+      {
+        "vendorName": "Canadian Tire",
+        "url": "https://www.canadiantire.ca/product/2x4",
+        "lastPrice": 380,
+        "lastUpdated": "2026-01-10T00:00:00.000Z"
+      }
+    ],
     "createdAt": "2026-01-01T00:00:00.000Z"
   }
 ]

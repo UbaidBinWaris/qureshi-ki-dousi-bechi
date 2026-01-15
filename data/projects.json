@@ -5,10 +5,25 @@
     "clientId": "client-1",
     "location": "DHA Phase 5, Karachi",
     "startDate": "2026-02-01T00:00:00.000Z",
-    "endDate": "2026-08-01T00:00:00.000Z",
+    "targetEndDate": "2026-08-01T00:00:00.000Z",
+    "budget": 15000000,
     "status": "active",
+    "currentPhase": "structural",
     "description": "5-story commercial plaza with parking",
-    "createdAt": "2026-01-10T00:00:00.000Z"
+    "rooms": [],
+    "additionalCosts": [
+      {
+        "id": "pac-1",
+        "costId": "additional-cost-2",
+        "name": "City Building Permit",
+        "amount": 15000,
+        "isPaid": true,
+        "paidDate": "2026-01-15T00:00:00.000Z"
+      }
+    ],
+    "totalEstimate": 14500000,
+    "createdAt": "2026-01-10T00:00:00.000Z",
+    "updatedAt": "2026-01-10T00:00:00.000Z"
   },
   {
     "id": "project-2",
@@ -16,9 +31,69 @@
     "clientId": "client-2",
     "location": "Bahria Town, Lahore",
     "startDate": "2026-01-15T00:00:00.000Z",
+    "targetEndDate": "2026-06-15T00:00:00.000Z",
+    "budget": 8000000,
     "status": "active",
+    "currentPhase": "finishing",
     "description": "Luxury 3-story residential villa with basement",
-    "createdAt": "2026-01-08T00:00:00.000Z"
+    "rooms": [
+      {
+        "id": "room-1",
+        "name": "Master Bathroom",
+        "type": "bathroom",
+        "width": 12,
+        "length": 10,
+        "height": 9,
+        "squareFeet": 120,
+        "demolitionCost": 15000,
+        "wasteBinCost": 8000,
+        "materials": [
+          {
+            "id": "rm-1",
+            "materialId": "material-7",
+            "materialName": "Tiles",
+            "quantity": 132,
+            "unit": "sq ft",
+            "rate": 250,
+            "amount": 33000
+          },
+          {
+            "id": "rm-2",
+            "materialId": "material-10",
+            "materialName": "Drywall",
+            "quantity": 4,
+            "unit": "sheet",
+            "rate": 800,
+            "amount": 3200
+          }
+        ],
+        "labor": [
+          {
+            "id": "rl-1",
+            "laborId": "labor-4",
+            "laborName": "Plumber",
+            "hours": 40,
+            "rate": 600,
+            "amount": 24000,
+            "providerId": "provider-1",
+            "providerName": "Ali Plumbing Services"
+          }
+        ],
+        "notes": "High-end finishes requested"
+      }
+    ],
+    "additionalCosts": [
+      {
+        "id": "pac-2",
+        "costId": "additional-cost-1",
+        "name": "Waste Bin Rental",
+        "amount": 8000,
+        "isPaid": false
+      }
+    ],
+    "totalEstimate": 7850000,
+    "createdAt": "2026-01-08T00:00:00.000Z",
+    "updatedAt": "2026-01-13T00:00:00.000Z"
   },
   {
     "id": "project-3",
@@ -26,9 +101,49 @@
     "clientId": "client-3",
     "location": "Blue Area, Islamabad",
     "startDate": "2025-12-01T00:00:00.000Z",
+    "targetEndDate": "2026-01-15T00:00:00.000Z",
     "endDate": "2026-01-15T00:00:00.000Z",
+    "budget": 2000000,
     "status": "completed",
+    "currentPhase": "completed",
     "description": "Complete office interior renovation",
-    "createdAt": "2025-11-25T00:00:00.000Z"
+    "rooms": [
+      {
+        "id": "room-2",
+        "name": "Conference Room",
+        "type": "office",
+        "width": 20,
+        "length": 15,
+        "height": 10,
+        "squareFeet": 300,
+        "demolitionCost": 0,
+        "materials": [
+          {
+            "id": "rm-3",
+            "materialId": "material-6",
+            "materialName": "Paint",
+            "quantity": 3,
+            "unit": "gallon",
+            "rate": 2500,
+            "amount": 7500
+          }
+        ],
+        "labor": [
+          {
+            "id": "rl-2",
+            "laborId": "labor-5",
+            "laborName": "Painter",
+            "hours": 30,
+            "rate": 400,
+            "amount": 12000
+          }
+        ]
+      }
+    ],
+    "additionalCosts": [],
+    "totalEstimate": 1950000,
+    "actualCost": 1920000,
+    "createdAt": "2025-11-25T00:00:00.000Z",
+    "updatedAt": "2026-01-15T00:00:00.000Z"
   }
 ]

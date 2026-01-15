@@ -1,6 +1,6 @@
 import fs from 'fs'
 import path from 'path'
-import { User, Client, Project, Material, Labor, Quotation, Invoice, CompanySettings } from '@/types'
+import { User, Client, Project, Material, Labor, Quotation, Invoice, CompanySettings, DeletionRequest } from '@/types'
 
 const dataDir = path.join(process.cwd(), 'data')
 
@@ -220,4 +220,40 @@ export function getNextInvoiceNumber(): string {
     return num > max ? num : max
   }, 0)
   return `INV-${String(maxNumber + 1).padStart(4, '0')}`
+}
+
+// Deletion Requests
+export function getDeletionRequests(): DeletionRequest[] {
+  try {
+    return readJSONFile<DeletionRequest[]>('deletion-requests.json')
+  } catch (error) {
+    // If file doesn't exist, return empty array
+    return []
+  }
+}
+
+export function getDeletionRequestById(id: string): DeletionRequest | undefined {
+  const requests = getDeletionRequests()
+  return requests.find(r => r.id === id)
+}
+
+export function addDeletionRequest(request: DeletionRequest): void {
+  const requests = getDeletionRequests()
+  requests.push(request)
+  writeJSONFile('deletion-requests.json', requests)
+}
+
+export function updateDeletionRequest(id: string, updates: Partial<DeletionRequest>): void {
+  const requests = getDeletionRequests()
+  const index = requests.findIndex(r => r.id === id)
+  if (index !== -1) {
+    requests[index] = { ...requests[index], ...updates }
+    writeJSONFile('deletion-requests.json', requests)
+  }
+}
+
+export function deleteDeletionRequest(id: string): void {
+  const requests = getDeletionRequests()
+  const filtered = requests.filter(r => r.id !== id)
+  writeJSONFile('deletion-requests.json', filtered)
 }

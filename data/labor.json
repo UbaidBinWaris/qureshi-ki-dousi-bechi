@@ -4,7 +4,20 @@
     "name": "Mason",
     "description": "Skilled masonry work",
     "hourlyRate": 500,
+    "jobRate": 10000,
     "category": "Construction Labor",
+    "trade": "Masonry",
+    "providers": [
+      {
+        "id": "provider-9",
+        "name": "Strong Masons",
+        "phone": "+92-321-5678901",
+        "email": "strong@masons.com",
+        "hourlyRate": 500,
+        "jobRate": 10000,
+        "rating": 4.3
+      }
+    ],
     "createdAt": "2026-01-01T00:00:00.000Z"
   },
   {
@@ -12,7 +25,29 @@
     "name": "Carpenter",
     "description": "Skilled carpentry work",
     "hourlyRate": 550,
+    "jobRate": 12000,
     "category": "Construction Labor",
+    "trade": "Carpentry",
+    "providers": [
+      {
+        "id": "provider-5",
+        "name": "Master Carpenters",
+        "phone": "+92-321-3456789",
+        "email": "master@carpenters.com",
+        "hourlyRate": 550,
+        "jobRate": 12000,
+        "rating": 4.6
+      },
+      {
+        "id": "provider-6",
+        "name": "Wood Works Studio",
+        "phone": "+92-321-9876543",
+        "email": "wood@works.com",
+        "hourlyRate": 580,
+        "jobRate": 13000,
+        "rating": 4.7
+      }
+    ],
     "createdAt": "2026-01-01T00:00:00.000Z"
   },
   {
@@ -20,7 +55,29 @@
     "name": "Electrician",
     "description": "Licensed electrical work",
     "hourlyRate": 600,
+    "jobRate": 16000,
     "category": "Specialized Labor",
+    "trade": "Electrical",
+    "providers": [
+      {
+        "id": "provider-3",
+        "name": "Power Electric Co.",
+        "phone": "+92-321-2345678",
+        "email": "power@electric.com",
+        "hourlyRate": 650,
+        "jobRate": 18000,
+        "rating": 4.8
+      },
+      {
+        "id": "provider-4",
+        "name": "Bright Electricians",
+        "phone": "+92-321-8765432",
+        "email": "bright@electricians.com",
+        "hourlyRate": 600,
+        "jobRate": 16000,
+        "rating": 4.3
+      }
+    ],
     "createdAt": "2026-01-01T00:00:00.000Z"
   },
   {
@@ -28,7 +85,29 @@
     "name": "Plumber",
     "description": "Licensed plumbing work",
     "hourlyRate": 600,
+    "jobRate": 15000,
     "category": "Specialized Labor",
+    "trade": "Plumbing",
+    "providers": [
+      {
+        "id": "provider-1",
+        "name": "Ali Plumbing Services",
+        "phone": "+92-321-1234567",
+        "email": "ali@plumbing.com",
+        "hourlyRate": 600,
+        "jobRate": 15000,
+        "rating": 4.5
+      },
+      {
+        "id": "provider-2",
+        "name": "Quick Fix Plumbers",
+        "phone": "+92-321-7654321",
+        "email": "quickfix@plumbers.com",
+        "hourlyRate": 550,
+        "jobRate": 14000,
+        "rating": 4.2
+      }
+    ],
     "createdAt": "2026-01-01T00:00:00.000Z"
   },
   {
@@ -36,7 +115,29 @@
     "name": "Painter",
     "description": "Professional painting work",
     "hourlyRate": 400,
+    "jobRate": 8000,
     "category": "Finishing Labor",
+    "trade": "Painting",
+    "providers": [
+      {
+        "id": "provider-7",
+        "name": "Color Masters",
+        "phone": "+92-321-4567890",
+        "email": "color@masters.com",
+        "hourlyRate": 400,
+        "jobRate": 8000,
+        "rating": 4.4
+      },
+      {
+        "id": "provider-8",
+        "name": "Perfect Paint Pro",
+        "phone": "+92-321-6789012",
+        "email": "perfect@paint.com",
+        "hourlyRate": 420,
+        "jobRate": 8500,
+        "rating": 4.5
+      }
+    ],
     "createdAt": "2026-01-01T00:00:00.000Z"
   },
   {
@@ -44,7 +145,31 @@
     "name": "General Labor",
     "description": "General construction helper",
     "hourlyRate": 300,
+    "jobRate": 5000,
     "category": "Construction Labor",
+    "trade": "General",
+    "providers": [],
+    "createdAt": "2026-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "labor-7",
+    "name": "Flooring Installer",
+    "description": "Tile and flooring installation",
+    "hourlyRate": 450,
+    "jobRate": 9000,
+    "category": "Finishing Labor",
+    "trade": "Flooring",
+    "providers": [
+      {
+        "id": "provider-10",
+        "name": "Floor Expert",
+        "phone": "+92-321-7890123",
+        "email": "floor@expert.com",
+        "hourlyRate": 450,
+        "jobRate": 9000,
+        "rating": 4.6
+      }
+    ],
     "createdAt": "2026-01-01T00:00:00.000Z"
   }
 ]

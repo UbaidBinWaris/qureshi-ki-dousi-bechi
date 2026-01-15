@@ -1,0 +1,91 @@
+[
+  {
+    "id": "room-template-1",
+    "roomType": "bathroom",
+    "defaultMaterials": [
+      "material-10",
+      "material-11",
+      "material-12",
+      "material-13"
+    ],
+    "defaultLabor": [
+      "labor-4",
+      "labor-3",
+      "labor-2"
+    ],
+    "estimatedHoursPerSqFt": 2.5
+  },
+  {
+    "id": "room-template-2",
+    "roomType": "kitchen",
+    "defaultMaterials": [
+      "material-10",
+      "material-11",
+      "material-14",
+      "material-15"
+    ],
+    "defaultLabor": [
+      "labor-4",
+      "labor-3",
+      "labor-2"
+    ],
+    "estimatedHoursPerSqFt": 3.0
+  },
+  {
+    "id": "room-template-3",
+    "roomType": "powder-room",
+    "defaultMaterials": [
+      "material-10",
+      "material-11",
+      "material-12"
+    ],
+    "defaultLabor": [
+      "labor-4",
+      "labor-3"
+    ],
+    "estimatedHoursPerSqFt": 2.0
+  },
+  {
+    "id": "room-template-4",
+    "roomType": "living-room",
+    "defaultMaterials": [
+      "material-6",
+      "material-8",
+      "material-9"
+    ],
+    "defaultLabor": [
+      "labor-5",
+      "labor-2"
+    ],
+    "estimatedHoursPerSqFt": 1.5
+  },
+  {
+    "id": "room-template-5",
+    "roomType": "bedroom",
+    "defaultMaterials": [
+      "material-6",
+      "material-8",
+      "material-9"
+    ],
+    "defaultLabor": [
+      "labor-5",
+      "labor-2"
+    ],
+    "estimatedHoursPerSqFt": 1.5
+  },
+  {
+    "id": "room-template-6",
+    "roomType": "basement",
+    "defaultMaterials": [
+      "material-1",
+      "material-3",
+      "material-4",
+      "material-5"
+    ],
+    "defaultLabor": [
+      "labor-1",
+      "labor-6"
+    ],
+    "estimatedHoursPerSqFt": 3.5
+  }
+]
